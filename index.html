@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyecto escolar sobre Jujutsu Kaisen realizado por Ian Enamorado.">
+  <title>Jujutsu Kaisen | Ian Enamorado</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#inicio">呪術 <span>JJK</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#historia">Historia</a><a href="#personajes">Personajes</a><a href="#tecnicas">Técnicas</a><a href="#opinion">Opinión</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-art" aria-hidden="true"><div class="moon"></div><div class="slash slash-one"></div><div class="slash slash-two"></div><span class="hero-kanji">呪</span></div>
+      <div class="hero-content">
+        <p class="eyebrow">PROYECTO ESCOLAR · ANIME</p>
+        <h1>JUJUTSU<br><em>KAISEN</em></h1>
+        <p class="intro">Un mundo donde las emociones negativas pueden convertirse en maldiciones y los hechiceros luchan para proteger a las personas.</p>
+        <a class="primary-btn" href="#personajes">Conocer personajes <span>↓</span></a>
+      </div>
+      <div class="student-card"><span>ESTUDIANTE</span><strong>Ian Enamorado</strong><span>DOCENTE</span><strong>Defford García</strong></div>
+    </section>
+
+    <section class="section story" id="historia">
+      <div class="section-heading"><span class="number">01 / INTRODUCCIÓN</span><h2>¿De qué trata?</h2></div>
+      <div class="story-grid"><div><p><strong>Jujutsu Kaisen</strong> es una serie de manga y anime creada por Gege Akutami. Su protagonista, Yuji Itadori, es un estudiante que entra al mundo de la hechicería después de encontrarse con un objeto maldito.</p><p>En esta historia, los hechiceros utilizan energía maldita para enfrentar criaturas peligrosas. También aprendemos sobre la amistad, el sacrificio y las decisiones difíciles.</p></div><div class="quote-panel"><span class="symbol">✦</span><p>“La fuerza no solo está en los poderes, sino también en las decisiones que tomamos”.</p><small>IDEA PRINCIPAL DE MI PRESENTACIÓN</small></div></div>
+    </section>
+
+    <section class="section characters" id="personajes">
+      <div class="section-heading"><span class="number">02 / EXPLORAR</span><h2>Personajes principales</h2><p>Selecciona un personaje para conocer su historia, habilidades y un dato interesante.</p></div>
+      <div class="character-grid" id="characterGrid">
+        <button class="character-card" data-character="yuji" aria-label="Ver información de Yuji Itadori"><div class="portrait portrait-yuji"><img data-image="yuji" alt="Yuji Itadori" loading="lazy"><span class="portrait-mark">虎</span></div><div class="card-meta"><small>01 · PROTAGONISTA</small><h3>Yuji Itadori</h3><span>Ver información ↗</span></div></button>
+        <button class="character-card" data-character="gojo" aria-label="Ver información de Satoru Gojo"><div class="portrait portrait-gojo"><img data-image="gojo" alt="Satoru Gojo" loading="lazy"><span class="portrait-mark">悟</span></div><div class="card-meta"><small>02 · PROFESOR</small><h3>Satoru Gojo</h3><span>Ver información ↗</span></div></button>
+        <button class="character-card" data-character="megumi" aria-label="Ver información de Megumi Fushiguro"><div class="portrait portrait-megumi"><img data-image="megumi" alt="Megumi Fushiguro" loading="lazy"><span class="portrait-mark">影</span></div><div class="card-meta"><small>03 · HECHICERO</small><h3>Megumi Fushiguro</h3><span>Ver información ↗</span></div></button>
+        <button class="character-card" data-character="nobara" aria-label="Ver información de Nobara Kugisaki"><div class="portrait portrait-nobara"><img data-image="nobara" alt="Nobara Kugisaki" loading="lazy"><span class="portrait-mark">釘</span></div><div class="card-meta"><small>04 · HECHICERA</small><h3>Nobara Kugisaki</h3><span>Ver información ↗</span></div></button>
+        <button class="character-card" data-character="sukuna" aria-label="Ver información de Ryomen Sukuna"><div class="portrait portrait-sukuna"><img data-image="sukuna" alt="Ryomen Sukuna" loading="lazy"><span class="portrait-mark">宿</span></div><div class="card-meta"><small>05 · MALDICIÓN</small><h3>Ryomen Sukuna</h3><span>Ver información ↗</span></div></button>
+      </div>
+      <p class="image-note">Las imágenes de los personajes se cargan desde una fuente externa cuando hay conexión a internet.</p>
+    </section>
+
+    <section class="section techniques" id="tecnicas"><div class="section-heading"><span class="number">03 / PODERES</span><h2>Conceptos importantes</h2></div><div class="tech-grid"><article><span>✧</span><h3>Energía maldita</h3><p>Es la energía que nace de emociones negativas y se utiliza para realizar técnicas.</p></article><article><span>◈</span><h3>Técnica maldita</h3><p>Es una habilidad especial que algunos hechiceros pueden usar en combate.</p></article><article><span>◎</span><h3>Expansión de dominio</h3><p>Es una técnica avanzada que crea un espacio donde el usuario obtiene una gran ventaja.</p></article></div></section>
+
+    <section class="section opinion" id="opinion"><div><span class="number">04 / CONCLUSIÓN</span><h2>Mi opinión</h2><p>Me gusta Jujutsu Kaisen porque tiene personajes diferentes, batallas emocionantes y una historia que muestra la importancia del trabajo en equipo. Mi personaje favorito es Gojo por su personalidad y sus habilidades.</p><p class="edit-tip">Puedes cambiar esta opinión por la tuya antes de presentar.</p></div><div class="closing-mark" aria-hidden="true">呪術</div></section>
+  </main>
+  <footer><strong>JUJUTSU KAISEN</strong><span>Proyecto de Ian Enamorado · Docente: Defford García</span><a href="#inicio">Volver arriba ↑</a></footer>
+
+  <dialog id="characterDialog" aria-labelledby="dialogTitle"><button class="close-btn" id="closeDialog" aria-label="Cerrar">✕</button><div class="dialog-layout"><div class="dialog-portrait" id="dialogPortrait"><img id="dialogImage" alt=""><span id="dialogMark">呪</span></div><div class="dialog-copy"><small id="dialogRole"></small><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><h3>Habilidad principal</h3><p id="dialogAbility"></p><h3>Dato interesante</h3><p id="dialogFact"></p><button class="secondary-btn" id="nextCharacter">Siguiente personaje →</button></div></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
